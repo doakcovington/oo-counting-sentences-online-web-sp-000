@@ -15,11 +15,11 @@ class String
   end
 
   def count_sentences
-    if self.end_with?(".","?","!")
+    if self.length == 0
+      0
+    elsif self.end_with?(".","?","!")
       sentence_array = self.split(/[!?.]/)
       complete_sentences = sentence_array.reject{|string| string.empty?}
-    elsif self.length == 0
-      0
     end
     complete_sentences.length
   end
