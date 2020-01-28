@@ -18,6 +18,6 @@ class String
     if self.end_with?(".","?","!") && self.length >= 2
       sentence_array = self.split(/[!?.]/)
     end
-    sentence_array
+    sentence_array.count
   end
 end
