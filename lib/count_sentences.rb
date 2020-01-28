@@ -19,4 +19,5 @@ class String
       sentence_array = self.split(".","?","!")
     end
   end
+  sentence_array
 end
