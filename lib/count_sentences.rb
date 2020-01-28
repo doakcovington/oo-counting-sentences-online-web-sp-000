@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     if self.end_with?(".","?","!")
-      
+      sentence_array = self.split(".","?","!")
     end
   end
 end
