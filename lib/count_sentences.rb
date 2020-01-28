@@ -21,6 +21,6 @@ class String
     else
       0
     end
-    complete_sentences.length
+    complete_sentences
   end
 end
