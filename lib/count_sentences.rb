@@ -18,6 +18,6 @@ class String
     if self.end_with?(".","?","!")
       sentence_array = self.split(/[!?.]/)
     end
-    sentence_array.length 
+    sentence_array
   end
 end
