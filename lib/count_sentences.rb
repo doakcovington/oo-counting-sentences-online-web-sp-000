@@ -19,6 +19,6 @@ class String
       sentence_array = self.split(/[!?.]/)
       complete_sentences = sentence_array.reject{|string| string.empty?}
     end
-    complete_sentences
+    complete_sentences.count
   end
 end
