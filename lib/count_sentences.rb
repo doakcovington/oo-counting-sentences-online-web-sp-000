@@ -21,6 +21,6 @@ class String
     elsif self.length == 0
       0
     end
-    complete_sentences.count
+    complete_sentences.length
   end
 end
